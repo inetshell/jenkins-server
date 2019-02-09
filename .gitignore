@@ -1,0 +1,5 @@
+.idea
+jenkins-proxy/log/
+jenkins-server/home/
+vars/load_vars.sh
+vars/plugins.txt
