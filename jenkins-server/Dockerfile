@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts
 USER root
-
+WORKDIR /tmp
 # Install Docker and config sudo for Jenkins user
 RUN apt-get update && \
     apt-get install -y vim apt-transport-https ca-certificates curl gnupg2 software-properties-common && \
